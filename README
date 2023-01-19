@@ -1,0 +1,56 @@
+C++ Tree
+
+List entries of directories in a tree-like format.
+
+Output example with depth of 2:
+
+/snap/
+├── core20
+│   ├── 1778
+│   ├── current -> /snap/core20/1778
+│   └── 1738
+├── gnome-3-34-1804
+│   ├── 77
+│   └── current -> /snap/gnome-3-34-1804/77
+├── bin
+│   ├── snap-store -> /usr/bin/snap
+│   ├── postman -> /usr/bin/snap
+│   ├── snap-store.ubuntu-software -> /usr/bin/snap
+│   └── snap-store.ubuntu-software-local-file -> /usr/bin/snap
+├── bare
+│   ├── 5
+│   └── current -> /snap/bare/5
+├── snapd
+│   ├── 17883
+│   ├── current -> /snap/snapd/17950
+│   └── 17950
+├── snap-store
+│   ├── 599
+│   ├── current -> /snap/snap-store/638
+│   └── 638
+├── snapd-desktop-integration
+│   ├── 49
+│   ├── current -> /snap/snapd-desktop-integration/49
+│   └── 43
+├── README
+├── core22
+│   ├── 469
+│   ├── current -> /snap/core22/484
+│   └── 484
+├── gnome-3-38-2004
+│   ├── 119
+│   ├── current -> /snap/gnome-3-38-2004/119
+│   └── 115
+├── postman
+│   ├── 183
+│   ├── 184
+│   └── current -> /snap/postman/184
+├── core18
+│   ├── 2654
+│   ├── current -> /snap/core18/2667
+│   └── 2667
+└── gtk-common-themes
+    ├── current -> /snap/gtk-common-themes/1535
+    └── 1535
+
+42 directories, 5 files
